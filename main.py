@@ -1,6 +1,7 @@
 # esto es un diccionario llave = valor
 # la el tipo de paretesis indica que es diccionario
 #corchetes es una lista []
+#tuplas con parentesis
 
 colores_rgb = {
     "rojo" : "#ff0000",
@@ -34,3 +35,12 @@ print(colores_rgb)
 #esto entrega una lista de los parametros
 print(colores_rgb.values())
 
+#esto entrega un parametro determinado
+print(colores_rgb.get("rojo"))
+
+#entrega una lista de tuplas (clave,valor) del diccionario. es mas facil iterar
+print(colores_rgb.items())
+
+#para convertir una lista en diccionario dict 
+
+#cual es la difrencia entre una lista y diccionario? Llave, valor y el otro solo valor. uno es iterable y el otro no.
